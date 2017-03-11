@@ -1,0 +1,389 @@
+body
+{
+	margin: 5px 0px 10px 0px;
+	color: #444444;
+	line-height: 18px;
+	font-size: 9pt;
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+	background-color: #f6f7f9;
+}
+form
+{
+	padding: 0px;
+	margin: 0px;
+}
+img
+{
+	border: 0px;
+}
+a img
+{
+	border: 0px;
+}
+table
+{
+	border-collapse: collapse;
+}
+
+a
+{
+	outline: none;
+}
+a:link
+{
+	color: #3366AA;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #3366AA;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #3366AA;
+	text-decoration: underline;
+}
+a:active
+{
+	color: #3366AA;
+	text-decoration: none;
+}
+
+.ForumHead
+{
+	height: 35px;
+	padding: 1px;
+	vertical-align: middle;
+	font-size: 10pt;
+	border: 1px solid #CBCBCB;
+	background: url('images/bbs/bg01.png') repeat-x;
+}
+.HeadPath
+{
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.HeadPath a
+{
+	color: #444444;
+}
+.ForumList
+{
+	border: 1px #CDCDCD solid;
+	line-height: 21px;
+	font-size: 9pt;
+	padding: 3px;
+	background: #fff;
+}
+.ForumList .ForumParent td, .ForumList td.ForumParent
+{
+	height: 28px !important;
+	height: 30px;
+	background: url('images/bbs/bg02.png') repeat-x;
+	color: #336699;
+	border-bottom: 1px #CDCDCD solid;
+	padding-left: 10px;
+}
+.ForumList .ForumParent .span_ForumName
+{
+	font-weight: bold;
+	font-size: 11pt;
+}
+.ForumList .ForumParent .span_Master
+{
+	padding-left: 15px;
+	font-size: 9pt;
+	color: #444444;
+}
+.ForumList .ForumChild td, .ForumList td.ForumChild
+{
+	padding: 3px;
+	background: #FFFFFF;
+	border-bottom: 1px #CDCDCD solid;
+}
+
+.ForumList .ForumChild .td_img
+{
+	width: 50px;
+	background: url('images/bbs/forum.gif') no-repeat center center;
+}
+.ForumList .ForumChild .td_img_new
+{
+	width: 50px;
+	background: url('images/bbs/forum_new.gif') no-repeat center center;
+}
+.ForumList .ForumChild .td_ViewCount
+{
+	width: 100px;
+}
+.ForumList .ForumChild .td_NewPost
+{
+	width: 280px;
+}
+.ForumList .ForumChild .td_Edit
+{
+	width: 60px;
+	text-align: center;
+}
+.ForumList .ForumChild .td_Edit_no
+{
+	width: 1px;
+}
+.ForumList .ForumChild #div_ForumName a
+{
+	color: #333333;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.ForumList .ForumChild #div_Desc
+{
+	color: #444444;
+}
+.ForumList .ForumChild #div_Master
+{
+	color: #444444;
+}
+.ForumList .ForumChild .span_ReplyCount
+{
+	color: #336699;
+}
+.ForumList .ForumChild .span_ViewCount
+{
+	color: #999999;
+}
+.ForumList .ForumChild #div_NewPost a
+{
+	color: #333333;
+	font-size: 10pt;
+	display: block;
+	width: 280px;
+	overflow: hidden; /*不显示超过对象宽度的内容*/
+	white-space: nowrap; /*限制在一行内显示所有文本*/
+	-o-text-overflow: ellipsis; /*当对象内文本溢出时显示省略标记（...）*/
+	text-overflow: ellipsis;
+}
+
+.PostList
+{
+	border: 1px #336699 solid;
+	line-height: 21px;
+	font-size: 9pt;
+	border-collapse: collapse;
+	padding: 3px;
+	background: #fff;
+}
+.PostList td
+{
+	padding: 3px;
+	height: 22px;
+}
+.PostList .TableHeader td, .PostList td.TableHeader
+{
+	height: 28px !important;
+	height: 30px;
+	background: url('images/form/bg01.png') repeat-x;
+	border-bottom: 1px #336699 solid;
+	font-weight: bold;
+	color: #fff;
+	padding: 0px;
+}
+.PostList .TableLine1 td, .PostList td.TableLine1
+{
+	height: 25px;
+	background: #FFFFFF;
+	border-bottom: 1px #cccccc solid;
+}
+.PostList .TableLine2 td, .PostList td.TableLine2
+{
+	height: 25px;
+	background: #F3F3F3;
+	border-bottom: 1px #cccccc solid;
+}
+
+.PostList .TableRowHover td, .PostList td.TableRowHover
+{
+	background: #FFE9A5;
+	border-bottom: 1px #cccccc solid;
+}
+
+.PostList .TableRowActive td, .PostList td.TableRowActive
+{
+	background: #FFE9A5;
+	border-bottom: 1px #cccccc solid;
+}
+
+.PostInfo
+{
+	border: 1px #cccccc solid;
+	font-size: 9pt;
+	border-collapse: collapse;
+	background: #FFFFFF;
+}
+.PostInfo td
+{
+	padding: 3px 15px 3px 15px;
+}
+.PostInfo .PostTitle td, .PostInfo td.PostTitle
+{
+	height: 40px;
+	border-right: 1px #cccccc solid;
+	border-bottom: 1px #cccccc solid;
+}
+.PostInfo .PostTitle .TableContent
+{
+	font-size: 12pt;
+	font-weight: bold;
+}
+.PostInfo .TableLine td, .PostInfo td.TableLine
+{
+	border-right: 1px #cccccc solid;
+	border-bottom: 1px #cccccc solid;
+}
+
+.PostInfo .TableContent td, .PostInfo td.TableContent
+{
+	background: #FFFFFF;
+	border-bottom: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+}
+.PostInfo .TableData td, .PostInfo td.TableData
+{
+	background: #E5EDF2;
+	border-bottom: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+}
+
+.PostInfo .TableData #div_PersonName
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 11pt;
+	font-weight: bold;
+	border-bottom: 1px dashed #ddd;
+	text-align: left;
+}
+.PostInfo .TableData #div_PersonName .Master
+{
+	font-size: 9pt;
+	color: #999999;
+}
+.PostInfo .TableData #div_PersonPhoto
+{
+	margin-top: 5px;
+	text-align: center;
+}
+.PostInfo .TableData #div_PersonGread
+{
+	margin-top: 5px;
+	text-align: center;
+}
+.PostInfo .TableData #div_PersonOrg
+{
+	margin-top: 5px;
+	text-align: center;
+}
+.PostInfo .TableData #div_Send
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.PostInfo .TableContent #div_ContentHeader
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 9pt;
+	border-bottom: 1px dashed #ddd;
+	color: #999999;
+}
+
+.PostInfo .TableContent #div_Content
+{
+	margin-top: 5px;
+}
+
+.PostInfo .TableData .tb_Count
+{
+	padding: 0px;
+	width: 80%;
+}
+.PostInfo .TableData .tb_Count td
+{
+	padding: 0px;
+	border: none;
+}
+.PostInfo .TableData .tb_Count .count
+{
+	color: #3366AA;
+}
+.Quote
+{
+	border: 1px dotted #cccccc;
+	width: 90%;
+	padding: 5px;
+}
+
+
+
+
+.pageArea
+{
+	color: #4e4e4e;
+	width: 330px;
+	display: inline;
+}
+.pageArea img
+{
+	cursor: pointer;
+}
+.pageArea a
+{
+	width: 30px;
+	height: 15px;
+	display: inline-block;
+	background: url('images/controls/pagebar_bg.png') center center no-repeat;
+	margin-bottom: -2px;
+}
+.pageArea .pageFirst
+{
+	background-position: center -8px;
+}
+.pageArea .pagePrevious
+{
+	background-position: center -38px;
+}
+.pageArea .pageFirstDisable
+{
+	background-position: center -68px;
+}
+.pageArea .pagePreviousDisable
+{
+	background-position: center -98px;
+}
+.pageArea .pageLast
+{
+	background-position: center -128px;
+}
+.pageArea .pageNext
+{
+	background-position: center -158px;
+}
+.pageArea .pageLastDisable
+{
+	background-position: center -188px;
+}
+.pageArea .pageNextDisable
+{
+	background-position: center -218px;
+}
+.pageArea .pageGoto
+{
+	background-position: center -240px;
+	height: 25px;
+}
+.pageArea .pageGoto:hover
+{
+	background-position: center -270px;
+}

@@ -1,0 +1,204 @@
+.messager-body
+{
+	text-align: center;
+	padding: 5px 10px;
+}
+.messager-button
+{
+	text-align: center;
+	padding-top: 10px;
+}
+.messager-icon
+{
+	float: left;
+	width: 47px;
+	height: 35px;
+}
+.messager-error
+{
+	background: url('images/messager_error.gif') no-repeat scroll left top;
+}
+.messager-info
+{
+	background: url('images/messager_info.gif') no-repeat scroll left top;
+}
+.messager-question
+{
+	background: url('images/messager_question.gif') no-repeat scroll left top;
+}
+.messager-warning
+{
+	background: url('images/messager_warning.gif') no-repeat scroll left top;
+}
+.messager-input
+{
+	width: 262px;
+	border: 1px solid #ccc;
+}
+.messager-progress
+{
+	padding: 10px;
+}
+.messager-p-msg
+{
+	margin-bottom: 5px;
+}
+
+/* 提示框样式 */
+.MessageBox
+{
+}
+/* 表头 */
+.MessageBox .head
+{
+	height: 30px;
+	overflow: hidden;
+}
+.MessageBox .head .left
+{
+	width: 20px;
+	background: url('images/message_bg.png') left 0px no-repeat;
+}
+.MessageBox .head .center
+{
+	background: url('images/message_bg.png') 0px -32px repeat-x;
+}
+.MessageBox .head .center .title
+{
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.MessageBox .head .right
+{
+	width: 20px;
+	background: url('images/message_bg.png') right 0px no-repeat;
+}
+
+/* 表头 */
+.MessageBox .head-no-title
+{
+	height: 16px;
+}
+.MessageBox .head-no-title .left
+{
+	width: 20px;
+	background: url('images/message_bg.png') left -96px no-repeat;
+}
+.MessageBox .head-no-title .center
+{
+	background: url('images/message_bg.png') 0px -112px repeat-x;
+}
+.MessageBox .head-no-title .right
+{
+	width: 20px;
+	background: url('images/message_bg.png') right -96px no-repeat;
+}
+
+/* 按钮栏 */
+.MessageBox .control
+{
+	height: 40px;
+	vertical-align: top;
+}
+.MessageBox .control .left
+{
+	width: 20px;
+	background: url('images/message_center_bg.png') left top repeat-y;
+}
+.MessageBox .control .center
+{
+	background-color: #7bafe6;
+	text-align: center;
+}
+.MessageBox .control .right
+{
+	width: 20px;
+	background: url('images/message_center_bg.png') right top repeat-y;
+}
+
+/* 表底 */
+.MessageBox .foot
+{
+	height: 16px;
+}
+.MessageBox .foot .left
+{
+	width: 20px;
+	background: url('images/message_bg.png') left -64px no-repeat;
+}
+.MessageBox .foot .center
+{
+	background: url('images/message_bg.png') 0px -80px repeat-x;
+}
+.MessageBox .foot .right
+{
+	width: 20px;
+	background: url('images/message_bg.png') right -64px no-repeat;
+}
+
+/* 提示框 */
+.MessageBox .msg
+{
+	height: 90px;
+}
+.MessageBox .msg .left
+{
+	width: 20px;
+	background: url('images/message_center_bg.png') left top repeat-y;
+}
+.MessageBox .msg .center
+{
+	padding-left: 90px;
+	font-size: 16px;
+	background-color: #7bafe6;
+}
+.MessageBox .msg .center .msg-content
+{
+	color: #fff;
+	margin: 20px 12px 20px 6px;
+}
+.MessageBox .msg .right
+{
+	width: 20px;
+	background: url('images/message_center_bg.png') right top repeat-y;
+}
+
+.MessageBox .msg .error
+{
+	background-image: url("images/icon64_error.png");
+	background-position: 0px 10px;
+	background-repeat: no-repeat;
+}
+.MessageBox .msg .info
+{
+	background-image: url("images/icon64_info.png");
+	background-position: 0px 10px;
+	background-repeat: no-repeat;
+}
+.MessageBox .msg .warning
+{
+	background-image: url("images/icon64_warning.png");
+	background-position: 0px 10px;
+	background-repeat: no-repeat;
+}
+.MessageBox .msg .forbidden
+{
+	background-image: url("images/icon64_forbidden.png");
+	background-position: 0px 10px;
+	background-repeat: no-repeat;
+}
+.MessageBox .msg .stop
+{
+	background-image: url("images/icon64_stop.png");
+	background-position: 0px 10px;
+	background-repeat: no-repeat;
+}
+.MessageBox .msg .blank
+{
+	height: 40px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}

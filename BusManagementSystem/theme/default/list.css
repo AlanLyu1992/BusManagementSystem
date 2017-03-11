@@ -1,0 +1,155 @@
+/*  列表页面样式  */
+.HeadTable-List
+{
+	width: 100%;
+	height: 35px;
+	padding: 1px;
+	background: #fafafa;
+	border: 1px solid #ddd;
+}
+.HeadTable
+{
+	width: 100%;
+	height: 35px;
+	padding: 1px;
+	background: #fafafa;
+	border: 1px solid #ddd;
+}
+.HeadTitle
+{
+	vertical-align: middle;
+	font-size: 12pt;
+	color: #124164;
+	font-weight: bold;
+}
+
+.TableList
+{
+	border: 1px #336699 solid;
+	line-height: 21px;
+	font-size: 9pt;
+	border-collapse: collapse;
+	padding: 3px;
+	background: #fff;
+}
+.TableList td
+{
+	padding: 3px;
+	height: 22px;
+}
+.TableList .TableHeader td, .TableList td.TableHeader
+{
+	height: 28px !important;
+	height: 30px;
+	background: url('images/form/bg01.png') repeat-x;
+	border-bottom: 1px #336699 solid;
+	border-right: 1px #336699 solid;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	padding: 0px;
+}
+.TableList .TableLine1 td, .TableList td.TableLine1
+{
+	background: #FFFFFF;
+	border-bottom: 1px #cccccc solid;
+}
+.TableList .TableLine2 td, .TableList td.TableLine2
+{
+	background: #F3F3F3;
+	border-bottom: 1px #cccccc solid;
+}
+.TableList .TableData td, .TableList td.TableData
+{
+	background: #F3F3F3;
+	border-bottom: 1px #cccccc solid;
+}
+.TableList .TableRowHover td, .TableList td.TableRowHover
+{
+	background: #FFE9A5;
+	border-bottom: 1px #cccccc solid;
+}
+
+.TableList .TableRowActive td, .TableList td.TableRowActive
+{
+	background: #FFE9A5;
+	border-bottom: 1px #cccccc solid;
+}
+.TableList .TableFooter td, .TableList .TableControl td, .TableList td.TableFooter, .TableList td.TableControl
+{
+	background: #E5E8EA;
+	border: 1px #cccccc solid;
+}
+
+.TextColor1
+{
+	color: #FF6600;
+}
+.TextColor2
+{
+	color: #FF0000;
+}
+.TextColor3
+{
+	color: #808080;
+}
+
+.pageArea
+{
+	color: #4e4e4e;
+	width: 330px;
+	display: inline;
+}
+.pageArea img
+{
+	cursor: pointer;
+}
+.pageArea a
+{
+	width: 30px;
+	height: 15px;
+	display: inline-block;
+	background: url('images/controls/pagebar_bg.png') center center no-repeat;
+	margin-bottom: -2px;
+}
+.pageArea .pageFirst
+{
+	background-position: center -8px;
+}
+.pageArea .pagePrevious
+{
+	background-position: center -38px;
+}
+.pageArea .pageFirstDisable
+{
+	background-position: center -68px;
+}
+.pageArea .pagePreviousDisable
+{
+	background-position: center -98px;
+}
+.pageArea .pageLast
+{
+	background-position: center -128px;
+}
+.pageArea .pageNext
+{
+	background-position: center -158px;
+}
+.pageArea .pageLastDisable
+{
+	background-position: center -188px;
+}
+.pageArea .pageNextDisable
+{
+	background-position: center -218px;
+}
+.pageArea .pageGoto
+{
+	background-position: center -240px;
+	height: 25px;
+}
+.pageArea .pageGoto:hover
+{
+	background-position: center -270px;
+}

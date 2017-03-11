@@ -1,0 +1,68 @@
+body {background:#fff; font-size:9pt; margin: 0px; padding: 0px;}
+/* other */
+img {border: none; vertical-align: middle;}
+
+a:link{color: #383838; text-decoration: none;}
+a:visited{color: #383838; text-decoration: none;}
+a:hover {color: #333333; text-decoration: underline;}
+a:active{color: #383838; text-decoration: underline;}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   border-bottom:1px #bbcaea solid;
+}
+
+img{
+   border:0px;
+   width:16px;
+   height:16px;
+}
+
+.L1 a:link, .L1 a:visited{
+   color: #383838;
+   background:#fff;
+   font-size:9pt;
+   display: block;
+   text-decoration: none;
+   height: 23px;
+   border-top:1px #bbcaea solid;
+}
+
+.L1 a:link span, .L1 a:visited span{
+  display: block;
+  height:23px;
+  line-height:23px;
+  padding-left:10px;
+  cursor:pointer;
+  background:url("images/ar1.png") no-repeat right center;
+}
+.L1 a:hover{
+   color: #fff;
+   background: url("images/menu1_bg.png") left center repeat-x;
+}
+/*  一级菜单 active 效果  */
+.L1 a:link.active, .L1 a:hover.active, .L1 a:active.active, .L1 a:visited.active{
+   color: #fff;
+   background: url("images/menu1_bg.png") left center repeat-x;
+}
+.L1 a:link.active span, .L1 a:hover.active span, .L1 a:active.active span, .L1 a:visited.active span{
+   background: url("images/arrow_d1.png") no-repeat right center;
+}
+
+.moduleContainer{display:none;background:#FFFFFF;padding: 5px;}
+.moduleContainer .blank{line-height:30px;padding-left: 5px;}
+.module {margin-bottom:10px;position:relative;}
+.module .detail{position:absolute;top:7px;right:25px;z-index:100;cursor:pointer;width:30px;}
+.module .header:link,
+.module .header:hover,
+.module .header:active,
+.module .header:visited
+{color:#383838;padding-left: 5px;line-height:25px;background:#c3f0ff;font-weight:normal;}
+.module .module_body{padding-left: 5px;}
+
+a.page:link,
+a.page:hover,
+a.page:active,
+a.page:visited{display:inline;background:none;text-decoration:underline;font-weight:normal;}

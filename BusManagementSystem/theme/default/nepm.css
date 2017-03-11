@@ -1,0 +1,112 @@
+*
+{
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.body
+{
+    font-size: 9pt;
+    color: rgb(57, 57, 57);
+}
+#title
+{
+    padding: 5px;
+}
+
+#tree_container
+{
+    padding: 5px;
+    background: #ffffff;
+    border-left: 1px #cccccc solid;
+    border-right: 1px #cccccc solid;
+    overflow:hidden;
+}
+.controlbar-center
+{
+    padding: 0px;
+    width: 400px;
+}
+
+.BlockTop2
+{
+   /* width: 100%;*/
+    width: 250px;
+    height: 5px;
+    border: 0px;
+    overflow-y: hidden;
+}
+.BlockTop2 td
+{
+    font-size: 1px;
+    background: url('images/Nepm/block_top2_bg.png') no-repeat scroll 0px -5px transparent;
+}
+.BlockTop2 td.BlockTop2left
+{
+    width: 5px;
+    background-position: left 0px;
+}
+.BlockTop2 td.BlockTop2center
+{
+    background-position: left -5px;
+    background-repeat: repeat-x;
+}
+.BlockTop2 td.BlockTop2right
+{
+    width: 5px;
+    background-position: right -10px;
+}
+
+.BlockBottom2
+{
+    width: 100%;
+    height: 5px;
+    border: 0px;
+    overflow-y: hidden;
+}
+.BlockBottom2 td
+{
+    font-size: 1px;
+    background: url('images/Nepm/block_top2_bg.png') 0px -20px no-repeat;
+}
+.BlockBottom2 td.BlockBottom2left
+{
+    width: 5px;
+    background-position: left -15px;
+}
+.BlockBottom2 td.BlockBottom2center
+{
+    background-position: left -20px;
+    background-repeat: repeat-x;
+}
+.BlockBottom2 td.BlockBottom2right
+{
+    width: 5px;
+    background-position: right -25px;
+}
+
+
+.controlbar
+{
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.controlbar-left
+{
+    width: 4px;
+    height: 30px;
+    background: url("images/Nepm/table_controlbar.gif") no-repeat 0px 0px;
+}
+.controlbar-center
+{
+    padding: 0 10px;
+    padding-bottom: 3px;
+    background: url("images/Nepm/table_controlbar.gif") repeat-x 0px -30px;
+}
+.controlbar-right
+{
+    width: 10px;
+    height: 30px;
+    background: url("images/Nepm/table_controlbar.gif") no-repeat 0px -60px;
+}

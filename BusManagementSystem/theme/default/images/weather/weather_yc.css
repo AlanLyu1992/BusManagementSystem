@@ -1,0 +1,483 @@
+@charset "gb2312";
+
+/* 初始化 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,address{margin:0;padding:0;}
+fieldset,img{border:none;}
+address,caption,cite,code,dfn,th,var,em{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+select,input{vertical-align:middle;}
+select,input,textarea{font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;font-size:inherit;}
+body{background:#fff;color:#333;padding:5px 0;font:12px/20px '宋体', sans-serif;font-family:"SimSun","Arial Narrow";}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight: normal;}
+
+.clearfix:after{content:'\20';display:block;height:0;clear:both;}
+.clearfix{zoom:1;}
+
+a{color:#094c9f;text-decoration:none;}
+a:hover{color:#f00;text-decoration:underline;}
+
+.wrap{margin:0 auto;width:950px;}
+/*-----------------------------------------------------------------*/
+.fred{color:#c00;}
+
+.secondaryHeader{height:33px;overflow:hidden;background:url(http://i2.sinaimg.cn/dy/images/header/2008/standardl2nav_bg.gif) repeat-x #fff;color:#000;font-size:12px;font-weight:100;}
+.secondaryHeader a,.secondaryHeader a:visited{color:#000;text-decoration:none;}
+.secondaryHeader a:hover,.secondaryHeader a:active{color:#c00;text-decoration:underline;}
+.sHBorder{border:1px #e3e3e3 solid;padding:0 10px 0 12px;overflow:hidden;zoom:1;}
+.sHLogo{float:left;height:31px;line-height:31px;overflow:hidden;}
+.sHLogo span{display:block;float:left;display:table-cell;vertical-align:middle;*display:block;*font-size:27px;*font-family:Arial;height:31px;}
+.sHLogo span img{vertical-align:middle;}
+.sHLinks{float:right;line-height:31px;}
+
+.banner{margin: 5px 0;}
+
+.close{position: absolute;right:0;top:0;width: 14px;height: 14px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) -220px -40px no-repeat;cursor: pointer;}
+.nav li{display: inline;float: left;font-size: 14px;margin: 0 15px;}
+.nav li a,.nav li a:hover{color: #fff;padding: 1px 0;}/*2010/8/24*/
+.search{float: right;line-height: 25px;margin-top: 8px;	}
+.search .kw{float: left;width: 262px;height: 20px;line-height: 20px;margin: 4px 5px 0 0;border: 0;padding: 0 5px;color: #5f76a3;background: transparent;}
+.search .sb{float: left;width: 72px;height: 25px;margin: 0 6px 0 0;background: none;border: 0;cursor: pointer;}
+
+.nav_dz{line-height: normal;height: 110px;background-image: url(http://i0.sinaimg.cn/dy/weather/101201/weather_yc_navdz.png);}
+.nav_dz .nav{float: left;height: 30px;line-height: 30px;}
+.nav_dz .links_01{float: right;line-height: 30px;padding-right: 40px;}
+.nav_dz .links_01 a,.nav_dz .links_01 a:hover{color: #fff;margin: 0 3px;}
+
+.nav_dz .dz_box{padding-top: 8px;color: #094c9f;}
+.nav_dz .search{display: inline;float: left;margin: 7px 0 0 10px;}
+.nav_dz .search .kw{width: 274px;height: 30px;line-height: 30px;padding: 3px 5px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) 0 0 no-repeat;font-size: 14px;}
+
+.nav_dz .search .sb{width: 104px;height: 44px;margin-right: 0;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) 0 -40px no-repeat;}
+.nav_dz .dz_box h3{float: left;height: 60px;font:16px/60px 'Microsoft YaHei', "黑体", sans-serif;}
+.nav_dz .dz_grid{position: relative;float: left;width: 130px;height: 60px;text-align: center;line-height: 20px;}
+.dz_grid h4{font-size: 14px;}
+
+.nav_dz .close{position: absolute;right:0;top:0;width: 14px;height: 14px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) -220px -40px no-repeat;cursor: pointer;}
+.dz_grid .btn_dz{margin-top: 18px;}
+.btn_dz,.btn_qx{width: 73px;height: 22px;padding-right: 15px;color: #094c9f;border:0;outline: none;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) -120px -40px no-repeat;cursor: pointer;}
+.btn_qx{background-position: -120px -70px;}
+
+.split{float: left;width: 0;height: 60px;margin: 0 8px;border: 1px solid #97cdee;border-width: 0 1px;border-left-color: #fff;}
+
+.icon_microblog1{display: inline-block;vertical-align: middle;margin-top: -4px;margin-right: 3px;width: 21px;height: 21px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) -120px -100px no-repeat;}
+.icon_duanxin{display: inline-block;vertical-align: middle;margin-top: -4px;margin-right: 3px;width: 21px;height: 21px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) -150px -100px no-repeat;}
+.icon_mobile{display: inline-block;vertical-align: middle;margin-top: -4px;margin-right: 3px;width: 21px;height: 21px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) -180px -100px no-repeat;}
+
+#dialog_dingzhi{display: none;position: absolute;top:240px;left:50%;z-index:10;width: 300px;height: 180px;margin-left: -160px;padding: 20px;background: #e8f6ff;border: 1px solid #007298;-moz-box-shadow: rgba(0,0,0,0.8) 0 0 5px;}
+#dialog_dingzhi h3{width: 100px;height: 22px;background: url(http://i3.sinaimg.cn/dy/weather/101201/weather_yc_dz.png) 0 -100px no-repeat;text-indent: -9999em;}
+
+#dialog_dingzhi .close{top:10px;right:10px;}
+#dialog_dingzhi h4{margin: 20px 0 10px;font-size: 14px;color: #094c9f}
+#dialog_dingzhi .txt_city{width: 290px;height: 28px;padding: 3px;line-height: 28px;font-size: 14px;border: 1px solid #93a9c2;color: #9aa7c3}
+#dialog_dingzhi .btns{margin: 20px 0 0;text-align: right;}
+#dialog_dingzhi .btns input{margin: 0 10px;}
+
+
+/*内容区*/
+.green{color: #19a319}
+.red{color: #c00}
+.hide{display: none;}
+.nobdr{border: 0 !important;}
+h2,h3,dt,li,h4,h4 span,.hd,.icon_arr,.icon_myhome,.icon_cloud,.icon_search,.btn01,.selected{background: url(http://php.weather.sina.com.cn/images/weather_yc.png) -9999em 0  no-repeat;}
+
+.icon_myhome{float: left;width: 36px;height: 17px;margin: 3px 5px;background-position: 0 -450px;}
+
+.icon_arr{width: 9px;height: 9px;overflow: hidden;background-position: -100px -460px;}
+.icon_cloud{float: left;width: 22px;height: 22px;margin: 2px 5px 0 0;background-position: 0 -480px;}
+.icon_search{float: left;width: 22px;height: 22px;margin: 2px 5px 0 0;background-position: 0 -510px;}
+
+#frame_weather{width: 950px;height: 704px;}
+#msg_box{ font-size:12px; font-weight:normal; position: absolute;width: 120px; height:30px; text-align: center;top:20px; left:170px;}
+#msg_box span{padding: 5px 30px;background: #68AF02;color: #fff;}
+
+/*横切一 天气*/
+/*左侧城市*/
+.mod_weather {margin-top: 3px;overflow: hidden;}
+.mod_weather .hd{position: relative;z-index:99;float: left;width: 260px;margin-top: 2px;}
+.mod_weather .bd{float: right;width: 690px;height: 695px;background: url(http://php.weather.sina.com.cn/images/weather_yc_bg.png) 0 2px no-repeat;}
+.mod_weather .hd .my_city h2{height: 25px;overflow: hidden;font:14px/26px 'Microsoft YaHei', "黑体", sans-serif;background-position:0 -400px;}
+
+.default_city{width: 240px;height: 45px;padding: 0 10px;background: url(http://php.weather.sina.com.cn/images/weather_yc_01.jpg) -419px -280px no-repeat;}
+.default_city h3{float: left;font:16px/42px 'Microsoft YaHei', "黑体", sans-serif;color: #fff;}
+.default_city h3 a:link,.default_city h3 a:visited { color:#fff;}
+.default_city h3 a:hover,.default_city h3 a:active,.default_city h3 a:focus { color:#f00;}
+.default_city .default_city_pinyin { font-size:12px;}
+.default_city .btn_01{float: right; width:62px; line-height: 42px;margin-right: 0px;cursor: pointer; }
+
+.config_city{display: none;position: absolute;top:55px;left:186px;width: 170px;padding: 15px 30px 15px 20px;background: #fff;border: 1px solid #0B9CF1;}
+.config_city .txt{width: 90px;}
+.config_city .close{position: absolute;right:15px;top:5px;cursor: pointer;font-family: verdana;}
+
+.mod_weather .hd .relate_city{border-left: 1px solid #91d3f9;color: #094c9f;}
+.mod_weather .hd .relate_city h2{height: 26px;line-height: 26px;padding: 0 10px;font-size: 14px;background-position:-1px -400px; }
+.mod_weather .hd .relate_city .h2_101{height:21px;line-height: 18px;background: #fcfdfe;border-bottom: 1px solid #e7f5fe;}/*2010/9/1*/
+
+.mod_weather .hd .relate_city .list_02 li{height: 40px;line-height: 40px;border-bottom: 1px dotted #bee7ff}
+.mod_weather .hd .relate_city .list_02 li a{display: block;margin: 0 7px;}
+.relate_city .list_02 .city{float: left;width: 72px;}
+h2 .icon_arr{float: right;margin: 10px 10px 0 0;*margin-top: -15px;}
+.relate_city .list_02{height: 246px;}
+.slide_item .list_02{display: none;height: 303px;}/*2010/8/26*/
+
+.slide_item .hd,.slide_item h2{cursor: pointer;}/*2010/9/9*/
+.on .hd,.on h2{cursor: default;}/*2010/9/9*/
+
+.on .list_02{display: block;border-bottom:  1px solid #91d3f9;}
+.on .icon_arr{background-position: -100px -450px;}
+
+.icon_box{float: right;*margin-top: -40px;}
+
+/*右侧天气详细信息*/
+/*标签头*/
+
+
+/*标签内容*/
+.tab_ctn h3{margin: 0 12px;font:24px/30px 'Microsoft YaHei', "黑体", sans-serif;color: #094c9f;}
+.tab_ctn h3 span{font: 14px/30px '宋体';color: #333;}
+
+.tab_hd .temp_opt{display: inline;float: right;margin: -25px 10px 0;}
+
+.mod_today{margin-bottom: 10px;overflow: hidden;}
+.mod_today .m_left{display: inline;float: left;width: 496px;height: 268px;overflow: hidden;padding: 5px;margin-left: 8px;background: url(http://php.weather.sina.com.cn/images/weather_yc_01.jpg) 0 0 no-repeat;color: #fff;font:14px/28px 'Microsoft YaHei';}/*2010/9/1*/
+.mod_today h5{margin: 10px 10px 0;font-size: 20px;font-family:'Microsoft YaHei', "黑体", sans-serif; }/*2010/9/1*/
+
+.mod_today .detail{position: relative;margin-top: -45px;*margin-top: -40px;font-size: 18px;text-align: center;}/*2010/9/9*/
+.mod_today .detail .fs_30{margin-right: 10px;}
+.icon_weather{width: 180px;height: 180px;margin: auto;text-align: center;}
+
+.mod_today .day,.mod_today .night{float: left;width: 248px;}
+
+.fs_30{font-size: 30px;}
+.fs_24{font-size: 24px;}
+.fs_14{font-size: 14px;}
+
+.mod_today .m_right{float: right;width: 166px;margin: 5px 5px 0 0;color: #558acb;}
+.mod_today .m_right h4{height: 32px;line-height:32px;padding: 0 8px;background-position: 0 -80px;color: #094c9f}
+.mod_today .m_right .li_03 h4{height: 28px;line-height: 28px;}
+.mod_today .m_right .li_04 h4{height: 27px;line-height: 28px;background-position: 0 -81px;}
+.mod_today .m_right .li_05 h4{height: 29px;line-height: 28px;background-position: 0 -81px;}
+.mod_today .m_right p{text-align: center;}
+.mod_today h4 span{float: left;width: 26px;height: 20px;margin-top: 5px;}
+
+.icon_sun{background-position: -50px -450px;}
+.icon_jichang{background-position: -50px -470px;}
+.icon_hangban{background-position: -50px -490px;}
+.icon_microblog{background-position: -50px -510px;}
+.icon_lukuang{background-position: -50px -530px;}
+/*2010/9/1*/
+.icon_zhishu{background-position: -132px -478px;}
+.tb_zhishu{width: 140px;margin: auto;}
+.tb_sun{margin-left: 3px;}
+
+.slide_box{height: 92px;overflow: hidden;}/*2010/8/25*/
+
+/*未来5日天气*/
+.weather_list{margin-left: 5px;}
+.mod_02{float: left;width: 158px;height: 243px;padding: 5px;margin-top: 3px;background: url(http://php.weather.sina.com.cn/images/weather_yc_01.jpg) -510px 0 no-repeat;color: #fff;}
+.mod_02 .mod_03{float: left;width: 78px;text-align: center;font-family: 'Microsoft YaHei';}/*2010/9/1*/
+.icon_mid_weather{width: 78px;height: 78px;margin: auto;}
+.mod_03 h5{margin-bottom: 5px;font-size: 14px;}
+.mod_03 ul{margin-top: -20px;}
+.mod_03 ul{margin-top: -20px;}
+.mod_02 h4{margin: 20px 0 15px;font:17px/29px 'Microsoft YaHei', "黑体", sans-serif;text-align: center;}
+
+.list_01 li{float: left;width: 120px;height: 40px;overflow: hidden;margin: 8px 20px 0 15px;line-height: 40px;*line-height: 42px;text-indent: 40px;}/*2010/9/1*/
+
+.list_01 .icon_01{background-position: 0 -200px;text-indent: 30px;}
+.list_01 .icon_02{width: 122px;background-position: 0 -250px;}
+.list_01 .icon_03{background-position: 0 -290px;}
+.list_01 li a{display: block;width: 120px;height: 40px;}
+
+/*生活指数*/
+.living_box{position: relative;width: 658px;height: 635px;margin: 15px auto 0;border: 1px solid #76ccff;background: #e9f7ff;}
+.tab_menu4 {height: 55px;_overflow: hidden;border-bottom: 1px solid #76ccff;}
+.tab_menu4 li{_position: relative;float: left;width: 80px;height: 45px;padding-top: 10px;text-align: center;border: 1px solid #76ccff;border-width: 0 1px 1px 0;cursor: pointer;color: #094C9F}
+.tab_menu4 .selected{border-bottom-color: #e9f7ff;background-position: 0 -560px;}
+.living_box .temp_opt{position: absolute;right:10px;top:30px;}
+
+.mod_living{padding: 0 9px;}
+.mod_living h3{margin: 25px 0 5px;font-size: 14px;font-family: 宋体;}
+.mod_living .mod_item{float: left;width: 310px;height:85px;padding: 15px 10px 0 0;border-top:  1px dashed #ccc;}
+.mod_living .mod_item img{float: left;margin-right: 10px;}
+
+/*历史气候*/
+.mod_10{display: inline;float: left;width: 332px;height: 109px;margin: 5px 0 0 7px;color: #193473;border: 1px solid #9adaff;background: url(http://php.weather.sina.com.cn/images/weather_yc_bg.png) 0 -700px no-repeat;}
+.mod_10 ul{margin-top: 10px;}
+.mod_10 li{float: left;width: 166px;text-indent: 15px;}
+
+.weather_history{position: relative;width: 674px;margin: 6px auto;background: #fff;border: 1px solid #9adaff;text-align: center;}
+#werFlash_box{height: 506px;overflow: hidden;}
+.weather_history .pub{line-height: 24px;text-align: right;color: #666;}
+.weather_history .temp_opt{position: absolute;right:10px;top:5px;}
+.temp_opt span{cursor: pointer;text-decoration: underline;}
+.temp_opt .temp_on{cursor: default;text-decoration: none;}
+
+/*横切二*/
+.col_02{margin: 10px 0;}
+.mod_04{float: left;width: 248px;height: 254px;margin-right: 10px;border: 1px solid #8ed2f9;background: #f6fbff;}
+.mod_04 .hd{height: 30px;padding: 0 10px;border: 1px solid #fff;background-position: 0 0;}
+.mod_04 .hd h2{font:16px/30px 'Microsoft YaHei', "黑体", sans-serif;color: #094c9f}
+.mod_04 .hd h2 a{color: #094c9f}
+
+.mod_04 .bd{border-top: 1px solid #8ed2f9}
+.list_03 {margin: 10px;}
+.list_03 li{padding-left: 7px;background-position: -250px -442px;}
+.list_04{margin: 10px;}
+.list_04 li{padding-left: 20px;background-position: -240px -465px;/*background-position: -250px -442px;*/}
+.list_04 a{color: #666;}
+
+.mod_05{float: right;width: 688px;height: 254px;overflow: hidden;border: 1px solid #8ed2f9;background: #f6fbff;}
+.slide_item .bd{display: none;}
+.on .bd{display: block;}
+.mod_06 .icon_arr{float: right;margin-top: -18px;}
+
+.mod_06 .hd{height: 30px;padding: 0 10px;border-bottom: 1px solid #8ed2f9;background-position: 0 0;background-repeat:repeat-x;}
+.on .hd{background-position: 0 -40px;border: 1px solid #fff;}
+.mod_06 .hd h2{font:16px/30px 'Microsoft YaHei', "黑体", sans-serif;color: #094c9f}
+
+.col_02 .mod_06 .hd{height: 22px;padding-top: 8px;}
+
+.col_02 .mod_06 .bd{height: 159px;border: 1px solid #8ed2f9;border-width: 1px 0;}
+.mod_06 table{width: 100%;margin-top: 20px;color:#094c9f }
+.mod_06 td{padding: 4px 5px 4px 15px;border-right: 1px solid #d9eefc;}
+.mod_06 .tb_02{margin-top: 10px;}
+.mod_06 .tb_03{margin-top: 10px;}
+.mod_06 .tb_03 th{border-right: 1px solid #d9eefc}
+
+.col_03 .mod_04,.col_03 .mod_05{height: 538px;}
+
+.w_60{width: 60px;}
+
+/*横切三*/
+.col_03 .mod_04 .hd{height: 32px;background-position: 0 1px;}
+.mod_04 .tab_menu2{padding: 0;border: 0;_overflow: hidden;color: #094C9F}
+.tab_menu2 li{_position: relative;float: left;width: 82px;height: 32px;text-align: center;border: 1px solid #8ed2f9;border-width: 0 0 1px 1px;font:16px/30px 'Microsoft YaHei', "黑体", sans-serif;}
+.tab_menu2 .first{border-left: 0;}
+.tab_menu2 .selected{background: #f6fbff;border-bottom-color: #f6fbff;}
+
+.tab_ctn2{height: 122px;}
+.tab_ctn2 .rd_box{_padding: 5px 0;}
+.tab_ctn2 label .rd{*margin: -2px -2px 0;}
+
+.txt{height: 18px;line-height: 18px;background: #fff;border: 1px solid #a8b9d4;}
+.mod_04 form{margin: 10px;line-height: 26px;}
+.fm_ticket .txt{width: 62px;font-family: 宋体;}/*2010/9/1*/
+.fm_ticket label {margin-right: 10px;}
+.tab_ctn2 label span{vertical-align: middle;}
+.mod_04 h3{height: 26px;padding: 0 10px;border: 1px solid #8ed2f9;border-width: 1px 0;background-position: 0 -43px;font:16px/26px 'Microsoft YaHei', "黑体", sans-serif;}
+
+.fm_flight label,.fm_hotel label{display: block;margin-left: 10px;}
+.fm_flight label span{display: inline-block;width: 60px;text-align: right;}
+.fm_flight h4{margin-top: 5px;color: #cb5100}
+.fm_flight .txt{width: 121px;}
+
+.fm_hangban label{display: inline;float: left;}/*2010/9/9*/
+.fm_hangban .txt{width: 80px;_width: 77px;margin-right: 6px;}/*2010/9/9*/
+
+.btn01{width: 64px;height: 28px;line-height: 28px;background-position: -190px -340px;border: 0;cursor: pointer;}
+
+.mod_04 .btns{margin: 5px 0;text-align: right;}
+
+#fm_train_01,#fm_train_02,#fm_train_03{text-align: center;}
+#fm_train_01 .txt{width: 60px;}
+#fm_train_02 .txt,#fm_train_03 .txt{margin: 3px auto;}
+#fm_train_02,#fm_train_03{display: none;}
+
+.col_03 .mod_06 .hd{border: 1px solid #fff;}
+.col_03 .mod_06 .bd{border-top: 1px solid #8ed2f9}
+.tab_menu3{height: 34px;_overflow: hidden;border-bottom: 1px solid #8ed2f9;}
+.tab_menu3 li{_position: relative;float: left;height: 34px;line-height: 34px;border-right: 1px solid #8ed2f9;font-size: 14px;padding: 0 20px;cursor: pointer;color: #094c9f}
+.tab_menu3 .last{border-right:  0;}
+.tab_menu3 .selected{border-bottom: 1px solid #f6fbff;border-right: 1px solid #8ed2f9;}
+
+.mod_cloudpic .b_left { float:left; width: 467px;height: 450px;padding: 10px;position:relative;border-right: 1px solid #8ed2f9;}
+.mod_cloudpic .b_right {float:left;width: 200px;}
+.mod_cloudpic .b_pic { position: relative;height:383px; }
+.mod_cloudpic .b_pic img { zoom:1; display:block; margin:0 auto; cursor:pointer;border: 1px solid #1d314a;}
+.mod_cloudpic .b_flash { position:absolute; left:1px; top:1px; }
+.mod_cloudpic .b_control_1 { height:24px; overflow:hidden; border:1px solid #e7e7e7; zoom:1; background: #fff;}
+.mod_cloudpic .plan { float:left; }
+.mod_cloudpic .plan h6 { font:12px/25px '宋体'; color:#666; width:37px; text-align:center; float:left; }
+.mod_cloudpic .plan .slide { width:221px; padding:0 1px; height:20px; margin-top:2px; background:url(http://i1.sinaimg.cn/dy/weather/w_m_02.gif) no-repeat 0 5px; float:left; overflow:hidden; }
+.mod_cloudpic .plan .slideButton { width:9px; height:20px; background:url(http://i1.sinaimg.cn/dy/weather/w_m_02.gif) no-repeat 0 -50px; }
+.mod_cloudpic .planTitle { height:17px; margin:4px 0 0 8px; border-left:1px solid #cecece; overflow:hidden; width:191px; float:left; }
+.mod_cloudpic .planTitle select { width:193px; margin:-2px 0 0 -1px;border: 1px solid #fff; height:20px; }/*2010/9/1*/
+.mod_cloudpic .b_control_2 { zoom:1; overflow:hidden; height:26px; padding:7px 0 0; background: #fff;}
+.mod_cloudpic .but_play { height:24px; width:62px; padding:0 0 0 35px; background:url(http://i1.sinaimg.cn/dy/weather/w_m_02.gif) no-repeat -36px -44px; border:1px solid #e7e7e7; float:left; line-height:25px; overflow:hidden; cursor:pointer; }
+.mod_cloudpic .but_play.stop { background-position:-186px -44px; }
+.mod_cloudpic .but_pre, .mod_cloudpic .but_next { float:left; height:24px; border:1px solid #e7e7e7; line-height:25px; overflow:hidden; cursor:pointer; margin-left:7px; width:72px; text-align:center; }
+.mod_cloudpic .speed { float:left; height:24px; overflow:hidden; border:1px solid #e7e7e7; width:195px; margin-left:7px; }
+.mod_cloudpic .speed h6 { font:12px/25px '宋体'; color:#666; width:37px; text-align:center; float:left; }
+.mod_cloudpic .speed .b_speed_c { float:left; padding:3px 0 0 8px; }
+.mod_cloudpic .b_right h3 {width: 173px;height: 47px;margin:10px auto;color: #094c9f;background-position: 0 -340px;text-align: center;font:18px/47px 'Microsoft YaHei', "黑体", sans-serif;}/*2010/9/1*/
+.mod_cloudpic .b_right .b_r_box { padding:10px; color:#4c5c84; border-top: 1px solid #8ed2f9; }
+.mod_cloudpic .b_right .b_r_box h4 {font:16px/34px 'Microsoft YaHei', "宋体", sans-serif;color: #094c9f;}
+
+#pic_title{position: absolute;padding: 0 10px;line-height: 30px;top:26px;*top:27px;right:10px;text-shadow:2px 2px 0 #000,-2px -2px 0 #000,0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;color: #fff;font-size: 16px;font-weight: bold;filter: glow(color:#000000,strength=7);}/*2010/8/31*/
+
+/*页脚*/
+.footer{margin: 20px 0;text-align: center;line-height: 24px;font-family: arial;color: #7f7f7f;}
+.footer a{margin: 0 3px;color: #7f7f7f;}
+
+.title_sprite {display: block;overflow: hidden;height: 20px;text-indent: -9999px;margin-top: 8px;background: url(http://php.weather.sina.com.cn/images/weather_yc_title.png) -9999em 0 no-repeat;}
+
+.h2_01{width: 70px;background-position: 0 0;}
+.h2_02{width: 180px;margin-top: 0;background-position: 0 -20px;}
+.h2_03{width: 180px;margin-top: 0;background-position: 0 -40px;}
+.h2_04{width: 180px;margin-top: 0;background-position: 0 -60px;}
+.h2_05{width: 32px;margin:8px auto 0;background-position: 0 -80px;}
+.h2_06{width: 32px;margin:8px auto 0;background-position: 0 -100px;}
+.h2_07{width: 45px;margin:8px auto 0;background-position: 0 -120px;}
+.h2_08{width: 120px;margin-top: 5px;background-position: 0 -140px;}
+.h2_09{width: 90px;margin-top: 5px;background-position: 0 -160px;}
+.h2_10{width: 70px;background-position: 0 -180px;}
+
+.h2_01:hover{width: 70px;background-position: -200px 0;}
+.h2_02:hover{width: 180px;background-position: -200px -20px;}
+.h2_03:hover{width: 180px;background-position: -200px -40px;}/*2010/8/25*/
+.h2_04:hover{width: 180px;background-position: -200px -60px;}/*2010/8/25*/
+
+.h2_09:hover{width: 90px;margin-top: 5px;background-position: -200px -160px;}
+
+/*天气小图标*/
+.icon_weather_small {float: left;width: 32px;height: 32px;margin: 5px 5px 0 0;background: url(http://php.weather.sina.com.cn/images/yb3/weather_yc_smallicon.png) 0 0 no-repeat;}
+
+.weather_01 { background-position: 0 0; }          
+.weather_02 { background-position: -35px 0; }    
+.weather_03 { background-position: -70px 0; }    
+.weather_04 { background-position: -105px 0; }  
+.weather_05 { background-position: -140px 0; }  
+.weather_06 { background-position: -175px 0; }  
+.weather_07 { background-position: -210px 0; }  
+.weather_08 { background-position: -245px 0; }  
+.weather_09 { background-position: -280px 0; }  
+.weather_10 { background-position: -315px 0; }  
+.weather_11 { background-position: -350px 0; }  
+.weather_12 { background-position: -385px 0; }  
+.weather_13 { background-position: -420px 0; }  
+.weather_14 { background-position: -455px 0; }  
+.weather_15 { background-position: -490px 0; }  
+.weather_16 { background-position: -525px 0; }  
+.weather_17 { background-position: -560px 0; }  
+.weather_18 { background-position: -595px 0; }  
+.weather_19 { background-position: -630px 0; }  
+.weather_20 { background-position: -665px 0; }  
+.weather_21 { background-position: -700px 0; }  
+.weather_22 { background-position: -735px 0; }  
+.weather_23 { background-position: -770px 0; }  
+.weather_24 { background-position: -805px 0; }  
+.weather_25 { background-position: -840px 0; }  
+.weather_26 { background-position: -875px 0; }  
+.weather_27 { background-position: -910px 0; }  
+.weather_28 { background-position: -945px 0; }  
+.weather_29 { background-position: -980px 0; }  
+.weather_30 { background-position: -1015px 0; } 
+.weather_31 { background-position: -1050px 0; } 
+.weather_32 { background-position: -1085px 0; } 
+.weather_33 { background-position: -1120px 0; } 
+.weather_34 { background-position: -1155px 0; } 
+.weather_35 { background-position: -1190px 0; } 
+.weather_36 { background-position: -1225px 0; } 
+.weather_37 { background-position: -1260px 0; } 
+.weather_38 { background-position: -1295px 0; } 
+.weather_39 { background-position: -1330px 0; } 
+.weather_40 { background-position: -1365px 0; } 
+.weather_41 { background-position: -1400px 0; } 
+.weather_42 { background-position: -1435px 0; } 
+.weather_43 { background-position: -1470px 0; } 
+.weather_44 { background-position: -1505px 0; } 
+.weather_45 { background-position: -1540px 0; } 
+.weather_46 { background-position: -1575px 0; } 
+.weather_47 { background-position: -1610px 0; } 
+.weather_48 { background-position: -1645px 0; } 
+.weather_49 { background-position: -1680px 0; } 
+.weather_50 { background-position: -1715px 0; } 
+.weather_51 { background-position: -1750px 0; } 
+.weather_52 { background-position: -1785px 0; } 
+.weather_53 { background-position: -1820px 0; } 
+.weather_54 { background-position: -1855px 0; } 
+.weather_55 { background-position: -1890px 0; } 
+
+.icon_weather_qing_0 { background-position: 0 0; }          
+.icon_weather_qing_1 { background-position: -35px 0; }    
+.icon_weather_duoyun_0 { background-position: -70px 0; }    
+.icon_weather_duoyun_1 { background-position: -105px 0; }  
+.icon_weather_yin_0 { background-position: -140px 0; }
+.icon_weather_yin_1 { background-position: -175px 0; } 
+.icon_weather_xiaoyu_0 { background-position: -210px 0; }  
+.icon_weather_xiaoyu_1 { background-position: -245px 0; }  
+.icon_weather_zhongyu_0 { background-position: -280px 0; }  
+.icon_weather_zhongyu_1 { background-position: -315px 0; }  
+.icon_weather_dayu_0 { background-position: -350px 0; }  
+.icon_weather_dayu_1 { background-position: -385px 0; }  
+.icon_weather_baoyu_0 { background-position: -420px 0; }  
+.icon_weather_baoyu_1 { background-position: -455px 0; }  
+.icon_weather_15 { background-position: -490px 0; }  
+.icon_weather_16 { background-position: -525px 0; }  
+.icon_weather_tedabaoyu_0 { background-position: -560px 0; }  
+.icon_weather_tedabaoyu_1 { background-position: -595px 0; }  
+.icon_weather_leizhenyu_0 { background-position: -630px 0; }  
+.icon_weather_leizhenyu_1 { background-position: -665px 0; }  
+.icon_weather_zhenyu_0 { background-position: -700px 0; }  
+.icon_weather_zhenyu_1 { background-position: -735px 0; }  
+.icon_weather_yujiaxue_0 { background-position: -770px 0; }  
+.icon_weather_yujiaxue_1 { background-position: -805px 0; }  
+.icon_weather_bingbao_0 { background-position: -840px 0; }  
+.icon_weather_bingbao_1 { background-position: -875px 0; }  
+.icon_weather_dongyu_0 { background-position: -910px 0; }  
+.icon_weather_dongyu_1 { background-position: -945px 0; }  
+.icon_weather_shuangdong_0 { background-position: -980px 0; }  
+.icon_weather_shuangdong_1 { background-position: -1015px 0; } 
+.icon_weather_qingwu_0 { background-position: -1050px 0; } 
+.icon_weather_qingwu_1 { background-position: -1085px 0; } 
+.icon_weather_wu_0 { background-position: -1120px 0; } 
+.icon_weather_wu_1 { background-position: -1155px 0; } 
+.icon_weather_nongwu_0 { background-position: -1190px 0; } 
+.icon_weather_nongyu_1 { background-position: -1225px 0; } 
+.icon_weather_yan_0 { background-position: -1260px 0; } 
+.icon_weather_yan_1 { background-position: -1295px 0; } 
+.icon_weather_shachenbao_0 { background-position: -1330px 0; } 
+.icon_weather_shachenbao_1 { background-position: -1365px 0; } 
+.icon_weather_qiangshachenbao_0 { background-position: -1400px 0; } 
+.icon_weather_qiangshachenbao_1 { background-position: -1435px 0; } 
+.icon_weather_fuchen_0 { background-position: -1470px 0; } 
+.icon_weather_fuchen_1 { background-position: -1505px 0; } 
+.icon_weather_yangsha_0 { background-position: -1540px 0; } 
+.icon_weather_yangsha_1 { background-position: -1540px 0; } 
+.icon_weather_xiaoxue_0 { background-position: -1575px 0; } 
+.icon_weather_xiaoxue_1 { background-position: -1610px 0; } 
+.icon_weather_zhongxue_0 { background-position: -1645px 0; } 
+.icon_weather_zhongxue_1 { background-position: -1680px 0; } 
+.icon_weather_daxue_0 { background-position: -1715px 0; } 
+.icon_weather_daxue_1 { background-position: -1750px 0; } 
+.icon_weather_baoxue_0 { background-position: -1785px 0; } 
+.icon_weather_baoxue_1 { background-position: -1820px 0; } 
+.icon_weather_mai_0 { background-position: -1855px 0; } 
+.icon_weather_mai_1 { background-position: -1890px 0; } 
+
+.btn_more_dc{display:block;text-indent:53px;width:160px;height:45px;line-height:45px;background:url(http://php.weather.sina.com.cn/images/weather_more_dc.png) no-repeat;margin:15px 0 0 -5px;}
+
+.mod_04 { border:none;}
+.mod_07{float: left;width: 248px;height: 163px;margin-right: 0px;font-size: 12px;border: 1px solid #8ed2f9;background: #f6fbff;}
+.mod_07 .hd{height: 32px;padding: 0 10px;border: 1px solid #fff;background-position: 0 1px;}
+.mod_07 .hd h2{font:16px/30px 'Microsoft YaHei', "黑体", sans-serif;color: #094c9f}
+.mod_07 .hd h2 a{color: #094c9f}
+.mod_07 .bd{border-top: 1px solid #8ed2f9}
+.mod_07 .tab_menu2{padding: 0;border: 0;_overflow: hidden;}
+.tab_menu2 li{_position: relative;float: left;width: 82px;height: 32px;text-align: center;border: 1px solid #8ed2f9;border-width: 0 0 1px 1px;font:16px/30px 'Microsoft YaHei', "黑体", sans-serif;}
+.tab_menu2 .first{border-left: 0;}
+.tab_menu2 .selected{background: #f6fbff;border-bottom-color: #f6fbff;}
+.tab_ctn2{height: 122px;}
+.tab_ctn2 .rd_box{_padding: 5px 0;}
+.tab_ctn2 label .rd{*margin: -2px -2px 0;}
+.mod_07 form .txt{height: 18px;line-height: 18px;background: #fff;border: 1px solid #a8b9d4;}
+.mod_07 form{margin: 10px;line-height: 26px;}
+.fm_ticket .txt{width: 62px;font-family: 宋体;}
+.fm_ticket label {margin-right: 10px;}
+.tab_ctn2 label span{vertical-align: middle;}
+.mod_07 h3{height: 26px;padding: 0 10px;border: 1px solid #8ed2f9;border-width: 1px 0;background-position: 0 -43px;font:16px/26px 'Microsoft YaHei', "黑体", sans-serif;}
+.fm_flight label,.fm_hotel label{display: block;margin-left: 10px;}
+.fm_flight label span{display: inline-block;width: 60px;text-align: right;}
+.fm_flight h4{margin-top: 5px;color: #cb5100}
+.mod_07 .btns{margin: 5px 0;text-align: right;}	

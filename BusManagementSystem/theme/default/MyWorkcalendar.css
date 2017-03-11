@@ -1,0 +1,332 @@
+﻿.PageHeader{
+   height:32px !important;
+   padding-top:47px;
+   color:#666666;
+}
+.PageHeader .header-right .calendar-view{
+   display:inline-block;
+   width:20px;
+   height:20px;
+   background:url('images/calendar_view.png') 0px center no-repeat;
+   margin-left:5px;
+   vertical-align:middle;
+   
+}
+
+.PageHeader .title{
+   float:left;
+   margin-top:8px;
+   margin-right:20px;
+   font-size:14px;
+   font-weight:bold;
+}
+.PageHeader .header-left{
+   float:left;
+}
+.PageHeader .header-right{
+   float:right;
+}
+
+.PageHeader .header-right {
+   white-space:nowrap; 
+}
+.PageHeader .header-right .list-view{
+   background-position:0px 0px;
+}
+.PageHeader .header-right .list-view:hover{
+   background-position:0px -20px;
+}
+.PageHeader .header-right .day-view{
+   background-position:-27px 0px;
+}
+.PageHeader .header-right .day-view:hover{
+   background-position:-27px -20px;
+}
+.PageHeader .header-right .week-view{
+   background-position:-53px 0px;
+}
+.PageHeader .header-right .week-view:hover{
+   background-position:-53px -20px;
+}
+.PageHeader .header-right .month-view{
+   background-position:-78px 0px;
+}
+.PageHeader .header-right .month-view:hover{
+   background-position:-78px -20px;
+}
+
+div.Date{
+   color:#0167cb;
+}
+/*  列表型表格样式  */
+.TableList{
+   border:1px #4686c6 solid;
+   line-height:21px;
+   font-size:9pt;
+   border-collapse:collapse;
+   padding:3px;
+}
+.TableList td{
+   padding:3px;
+   height:26px;
+}
+.TableList .TableHeader td,
+.TableList td.TableHeader{
+   height:30px !important;
+   height:32px;
+   background:#5d99da;
+   border-bottom:1px #4686c6 solid;
+   border-right:1px #4686c6 solid;
+   font-weight:bold;
+   text-align:center;
+   color:#fff;
+   padding:0px;
+}
+.TableList .TableHeader td.TableCorner{
+   background:#5d99da;
+}
+.TableList .TableLine1 td,
+.TableList td.TableLine1{
+   background:#FFFFFF;
+   border-bottom:1px #cccccc solid;
+}
+.TableList .TableLine2 td,
+.TableList td.TableLine2{
+   background:#FFFFFF;
+   border-bottom:1px #cccccc solid;
+}
+.TableList .TableData td,
+.TableList td.TableData{
+   background:#FFFFFF;
+   border-bottom:1px #cccccc solid;
+}
+.ArrowButtonL{width:20px;height:16px;background: url('images/pagebar_bg.png') -5px -38px no-repeat;}
+.ArrowButtonR{width:20px;height:16px;background: url('images/pagebar_bg.png') -5px -158px no-repeat;}
+.ArrowButtonLL{width:20px;height:16px;background: url('images/pagebar_bg.png') -5px -308px no-repeat;}
+.ArrowButtonRR{width:20px;height:16px;background: url('images/pagebar_bg.png') -5px -338px no-repeat;}
+a.dropdown:link,
+a.dropdown:hover,
+a.dropdown:active,
+a.dropdown:visited {
+   padding-left:10px;
+   display:inline-block;
+   height:25px;
+   line-height:25px;
+   color:#373737;
+   text-align:center;
+   text-decoration:none;
+   background:url("images/btn_dropdown_l.png") left top no-repeat;
+}
+a.dropdown:hover{
+   text-decoration:none;
+}
+
+a.dropdown span{
+	display:inline-block;
+	margin:0px;
+	padding:0 15px 0 0;
+	white-space:nowrap;
+	height:25px;
+	background:url("images/btn_dropdown_r.png") right top no-repeat;
+	cursor:pointer;
+}
+a.ToolBtn{
+   display:inline-block;
+   padding-left:5px;
+   text-decoration:none;
+   background:url("images/tool_btn.png") left 0px no-repeat;
+}
+a.ToolBtn span{
+   display:inline-block;
+   padding:0px 13px 0px 8px;
+   height:25px;
+   line-height:25px;
+   color:#373737 !important;
+   background:url("images/tool_btn.png") right -50px no-repeat;
+   cursor:pointer;
+}
+a.ToolBtn:hover,
+a.ToolBtn-active{
+   background-position:left -25px;
+}
+a.ToolBtn:hover span,
+a.ToolBtn-active span{
+   color:#fff !important;
+   background-position:right -75px;
+}
+
+.attach_name:link,.attach_name:hover,.attach_name:active,.attach_name:visited{color:#0D3A73;}
+.attach_div{display:none;width:110px;border:#cccccc 1px solid;position:absolute;padding:0px;z-index:10001;background:#FFFFFF;}
+.attach_div a{display:block !important;padding:0px 10px;height:25px;line-height:25px;text-decoration:none;color:#393939;}
+.attach_div a:hover{background:#5d99da;color:#fff;text-decoration:none;}
+.attach_div img.ImgHover{border:1px #98BBD6 solid;cursor:pointer;}
+.attach_div img.ImgNormal{border:1px #fff solid;cursor:pointer;}
+div.CalAllDay{background:#f2f2f2;border:1px #cccccc solid;position:relative;margin: 1px 0px;padding:0px 3px;}
+
+a.CalLevel1:link, a.CalLevel1:hover, a.CalLevel1:active, a.CalLevel1:visited, span.CalLevel1 {
+   display:inline-block;
+   color:#FF0000;
+   padding-left:16px;
+   background:url("images/flag.gif") no-repeat;
+   background-position:0px 0px;
+}
+a.CalLevel2:link, a.CalLevel2:hover, a.CalLevel2:active, a.CalLevel2:visited, span.CalLevel2 {
+   display:inline-block;
+   color:#FF9933;
+   padding-left:16px;
+   background:url("images/flag.gif") no-repeat;
+   background-position:0px -40px;
+}
+a.CalLevel3:link, a.CalLevel3:hover, a.CalLevel3:active, a.CalLevel3:visited, span.CalLevel3 {
+   display:inline-block;
+   color:#00AA00;
+   padding-left:16px;
+   background:url("images/flag.gif") no-repeat;
+   background-position:0px -20px;
+}
+a.CalLevel4:link, a.CalLevel4:hover, a.CalLevel4:active, a.CalLevel4:visited, span.CalLevel4 {
+   display:inline-block;
+   color:#6F7274;
+   padding-left:16px;
+   background:url("images/flag.gif") no-repeat;
+   background-position:0px -160px;
+}
+
+span.CalLevel1 {
+   line-height:16px;
+   background-position:0px -4px;
+}
+span.CalLevel2 {
+   line-height:16px;
+   background-position:0px -44px;
+}
+span.CalLevel3 {
+   line-height:16px;
+   background-position:0px -24px;
+}
+span.CalLevel4 {
+   line-height:16px;
+   background-position:0px -164px;
+}
+a.CalColor:link, a.CalColor:hover, a.CalColor:active, a.CalColor:visited, span.CalColor {
+   display:inline-block;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px -150px;
+}
+a.CalColor1:link, a.CalColor1:hover, a.CalColor1:active, a.CalColor1:visited, span.CalColor1 {
+   display:inline-block;
+   color:#FF0000;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px 0px;
+}
+a.CalColor2:link, a.CalColor2:hover, a.CalColor2:active, a.CalColor2:visited, span.CalColor2 {
+   display:inline-block;
+   color:#9A9519;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px -25px;
+}
+a.CalColor3:link, a.CalColor3:hover, a.CalColor3:active, a.CalColor3:visited, span.CalColor3 {
+   display:inline-block;
+   color:#00AA00;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px -50px;
+}
+a.CalColor4:link, a.CalColor4:hover, a.CalColor4:active, a.CalColor4:visited, span.CalColor4 {
+   display:inline-block;
+   color:#FF9933;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px -75px;
+}
+
+a.CalColor5:link, a.CalColor5:hover, a.CalColor5:active, a.CalColor5:visited, span.CalColor5 {
+   display:inline-block;
+   color:#0000FF;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px -100px;
+}
+
+a.CalColor6:link, a.CalColor6:hover, a.CalColor6:active, a.CalColor6:visited, span.CalColor6 {
+   display:inline-block;
+   color:#4D318D;
+   padding-left:25px;
+   background:url("images/color_flag.png") no-repeat;
+   background-position:0px -125px;
+}
+
+span.CalColor {
+   line-height:16px;
+   background-position:0px -152px;
+}
+span.CalColor1 {
+   line-height:16px;
+   background-position:0px -2px;
+}
+span.CalColor2 {
+   line-height:16px;
+   background-position:0px -27px;
+}
+span.CalColor3 {
+   line-height:16px;
+   background-position:0px -53px;
+}
+span.CalColor4 {
+   line-height:16px;
+   background-position:0px -77px;
+}
+span.CalColor5 {
+   line-height:16px;
+   background-position:0px -102px;
+}
+span.CalColor6 {
+   line-height:16px;
+   background-position:0px -127px;
+}
+.MyBlockTop
+{
+    /*width: 178px;*/
+    width: 178px;
+}
+
+.MyBlockTop .center
+{
+    text-align: left;
+    color: #fff;
+}
+
+.MyBlockTop
+{
+    border: 0px;
+    font-size: 12px;
+}
+.MyBlockTop td
+{
+    height: 31px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background: url('images/block_top_bg.png') no-repeat scroll 0px -32px transparent; /*0px -32px是坐标-32px是向上32个px，no-repeat表示图片不充分*/
+    width: 176px;
+}
+.MyBlockTop td.left
+{
+    width: 5px;
+    background-position: left 1px; /*background-position设置或检索对象的背景图像位置。必须先指定 background-image 属性*/
+}
+.MyBlockTop td.center
+{
+    background-position: 0px -32px;
+    background-repeat: repeat-x; /*横行（x轴）重复铺满*/
+}
+.MyBlockTop td.right
+{
+    width: 5px;
+    background-position: right -64px;
+}
+
+

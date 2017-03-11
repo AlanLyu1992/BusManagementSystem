@@ -1,0 +1,380 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    margin: 0px;
+}
+
+#left
+{
+    width: 200px;
+    padding-left: 5px;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+#left_top
+{
+    width: 178px;
+    height: 79px !important;
+    background: url('/theme/default/images/WorkLog/diary.jpg') left center no-repeat;
+}
+#Toolbar
+{
+    width: 178px;
+    height: 35px;
+    text-align: center;
+}
+#Toolbar a.ToolBtn2
+{
+    width: 50px !important;
+    width: 55px;
+}
+#Toolbar a.ToolBtn2 span
+{
+    display: block;
+}
+
+#PrevMonth
+{
+    display: inline-block !important;
+    display: inline;
+    width: 20px;
+    height: 20px !important;
+    height: 30px;
+    background: url('/theme/default/images/WorkLog/cal_arrow.png') no-repeat scroll -5px center transparent;
+    cursor: pointer;
+}
+#YearMonth
+{
+    display: inline-block !important;
+    display: inline;
+    width: 120px;
+    margin-bottom: 0px !important;
+    margin-bottom: 6px;
+}
+#NextMonth
+{
+    display: inline-block !important;
+    display: inline;
+    width: 20px;
+    height: 20px !important;
+    height: 30px;
+    background: url('/theme/default/images/WorkLog/cal_arrow.png') no-repeat scroll -35px center transparent;
+    cursor: pointer;
+}
+#calendar
+{
+    /* width: 178px;*/
+    width: 192px;
+    border: 1px #95bede solid;
+    border-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+#calendar .head
+{
+    color: #6aad44;
+    font-weight: bold;
+}
+#calendar td
+{
+    height: 20px;
+    border-bottom: 1px #cdcdcd solid;
+    border-right: 1px #cdcdcd solid;
+    cursor: pointer;
+}
+#calendar td.hover, #calendar td.active
+{
+    background: #c8e08c;
+}
+
+.container
+{
+    width: 190px !important; /*width: 176px !important;*/ /*width: 178px;*/
+    border: 1px #95bede solid;
+    border-top: 0px;
+    margin-bottom: 2px;
+}
+.container a
+{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #393939;
+    overflow: hidden;
+    font-size: 10pt;
+    font-family: 幼圆;
+}
+.container a.more
+{
+    text-align: right;
+    background: none;
+}
+
+
+#right
+{
+    height: 100%;
+    vertical-align: top;
+}
+
+.diary_icon
+{
+    background: url('/theme/default/images/WorkLog/diary.jpg') left center no-repeat;
+}
+.address_icon
+{
+    background: url('/theme/default/images/WorkLog/address.jpg') left center no-repeat;
+}
+.email_icon
+{
+    background: url('/theme/default/images/WorkLog/email.jpg') left center no-repeat;
+}
+.sms_icon
+{
+    height: 0px !important;
+    padding-top: 0px !important;
+}
+
+.BlockBottom
+{
+    width: 178px;
+}
+.BlockBottom .center
+{
+    text-align: left;
+    color: #fff;
+}
+.head
+{
+    /*width: 171px !important;*/
+    width: 185px !important;
+    padding-left: 5px;
+    border-top: 1px #fff solid;
+    border-left: 1px #4686c6 solid;
+    border-right: 1px #4686c6 solid;
+    background: #67a1e0;
+}
+
+.container div.a
+{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 18px;
+    color: #393939;
+    background: url('/theme/default/images/WorkLog/dot.png') 5px center no-repeat;
+}
+
+.container .TableList
+{
+    border: 0px;
+}
+
+.container .TableList a
+{
+    background: none;
+}
+
+.container .trHover
+{
+    border: 0px;
+}
+.container .trHover td.TableData, .container .trHover .TableData td
+{
+    border: 0px;
+    border-bottom: 1px #cccccc solid;
+    text-align: left;
+    padding-left: 21px;
+    background-image: url('/theme/default/images/WorkLog/dot.png');
+    background-position: 8px center;
+    background-repeat: no-repeat;
+}
+
+.treeList
+{
+    /*width: 166px !important;     width: 178px;*/
+    width: 190px !important; /* padding: 5px;*/
+    padding-top: 3px;
+}
+
+a.header
+{
+    display: block;
+    height: 30px;
+    line-height: 32px;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    padding-left: 21px;
+    background: url("/theme/default/images/WorkLog/ar.png") no-repeat scroll 5px center transparent;
+}
+a.header-active
+{
+    background: url("/theme/default/images/WorkLog/arrow_d.png") no-repeat 5px center;
+}
+/*  diary_body.php begin     */
+.TableTop .subject
+{
+    font-size: 14px;
+    color: #fff;
+}
+.TableTop .subject a
+{
+    color: #fff;
+}
+.TableTop .operate
+{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    color: #fff;
+}
+.TableTop .operate a
+{
+    color: #fff;
+}
+#diary_body_topbar
+{
+    height: 32px;
+}
+
+.last_10dairy
+{
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+}
+
+.body_content
+{
+    text-align: center;
+}
+.one_diary
+{
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px #CDCDCD solid;
+}
+
+.diary_type
+{
+    padding: 10px;
+    color: #999;
+    font-size: 12px;
+    background-color: #ffffff;
+    border-left: 1px #CDCDCD solid;
+    border-right: 1px #CDCDCD solid;
+}
+
+.diary_comment
+{
+    color: #999;
+    font-size: 12px;
+    background-color: #ffffff;
+    border-left: none;
+    border-right: none;
+}
+
+.diary_comment_replay
+{
+    border: #666 1px dashed;
+    padding: 8px;
+    margin: 8px;
+    text-align: left;
+    background-color: #fff;
+    zoom: 1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    background-color: none;
+}
+
+.content
+{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #252927;
+    line-height: normal;
+    font-size: 12px;
+    background-color: #ffffff;
+    border-left: 1px #CDCDCD solid;
+    border-right: 1px #CDCDCD solid;
+}
+.operate
+{
+    text-align: right;
+}
+#readbody
+{
+}
+.replycontent
+{
+    padding-left: 14px;
+}
+
+.operatebar
+{
+    padding: 4px;
+    text-align: right;
+    background: #f2f8ff;
+    border: 1px #CDCDCD solid;
+}
+
+/*  diary_body.php end     */
+
+/* 树的圆角样式 BEGIN*/
+.BlockTop
+{
+    /*width: 178px;*/
+    width: 192px;
+}
+
+.BlockTop .center
+{
+    text-align: left;
+    color: #fff;
+}
+
+.BlockTop
+{
+    border: 0px;
+    font-size: 12px;
+}
+.BlockTop td
+{
+    height: 31px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background: url('/theme/default/images/WorkLog/block_top_bg.png') no-repeat scroll 0px -32px transparent; /*0px -32px是坐标-32px是向上32个px，no-repeat表示图片不充分*/
+    width: 190px;
+}
+.BlockTop td.left
+{
+    width: 5px;
+    background-position: left 1px; /*background-position设置或检索对象的背景图像位置。必须先指定 background-image 属性*/
+}
+.BlockTop td.center
+{
+    background-position: 0px -32px;
+    background-repeat: repeat-x; /*横行（x轴）重复铺满*/
+}
+.BlockTop td.right
+{
+    width: 5px;
+    background-position: right -64px;
+}
+/* 树的圆角样式 END*/
+
+span.dynatree-folder a
+{
+    font-weight: bold;
+    font-size: 9pt;
+}

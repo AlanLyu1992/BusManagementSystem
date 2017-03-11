@@ -1,0 +1,5 @@
+d:\documents\visual studio 2010\Projects\城市公交管理系统-ASP\城市公交管理系统-ASP\bin\城市公交管理系统-ASP.dll
+d:\documents\visual studio 2010\Projects\城市公交管理系统-ASP\城市公交管理系统-ASP\bin\城市公交管理系统-ASP.pdb
+d:\documents\visual studio 2010\Projects\城市公交管理系统-ASP\城市公交管理系统-ASP\obj\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\城市公交管理系统-ASP\城市公交管理系统-ASP\obj\Debug\城市公交管理系统-ASP.dll
+d:\documents\visual studio 2010\Projects\城市公交管理系统-ASP\城市公交管理系统-ASP\obj\Debug\城市公交管理系统-ASP.pdb

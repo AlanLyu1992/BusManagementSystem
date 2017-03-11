@@ -1,0 +1,109 @@
+
+/* -- 以下是重写的皮肤 -- */ 
+
+/* gray */
+.skin-gray .pb-wrapper {
+	border-color: gray;
+	border-top-color: silver;
+}
+
+.skin-gray .pb-container {
+	border-color: gray;
+	border-left-color: silver;
+}
+
+.skin-gray .pb-text {
+	color: black;
+}
+
+/* green */
+.skin-green .pb-wrapper {
+	border-color: #666;
+	border-top-color: #628c2d;
+}
+
+.skin-green .pb-container {
+	border-color: #666;
+	border-left-color: #628c2d;
+}
+
+.skin-green .pb-text {
+	color: black
+}
+
+/* blue */
+.skin-blue .pb-wrapper {
+	border-color: #0e7c78;
+	border-top-color: #41beb9;
+}
+
+.skin-blue .pb-container {
+	border-color: #0e7c78;
+	border-left-color: #41beb9;
+}
+
+.skin-blue .pb-text {
+	color: white
+}
+
+.skin-blue .pb-value {
+	background: #159b96;
+}
+
+/* red */
+.skin-red .pb-wrapper {
+	border-color: #8e1411;
+	border-top-color: #cb3d3a;
+}
+
+.skin-red .pb-container {
+	border-color: #8e1411;
+	border-left-color: #cb3d3a;
+}
+
+.skin-red .pb-text {
+	color: #470200;
+}
+
+.skin-red .pb-value {
+	background: #d70500
+}
+
+/* orange */
+.skin-orange .pb-wrapper,.skin-orange .pb-container {
+	border-color: #d55110;
+}
+
+.skin-orange .pb-text {
+	color: #250f00;
+}
+
+.skin-orange .pb-value {
+	background: #d75a00;
+}
+
+/* purple */
+.skin-purple .pb-wrapper,.skin-purple .pb-container {
+	border-color: #a90561;
+}
+
+.skin-purple .pb-text {
+	color: #720040;
+}
+
+.skin-purple .pb-value {
+	background: #9d118e
+}
+
+/* black */
+.skin-black .pb-wrapper,.skin-black .pb-container {
+	border-color: black
+}
+
+.skin-black .pb-text {
+	color: gray;
+}
+
+.skin-black .pb-value {
+	background: #111111;
+}
